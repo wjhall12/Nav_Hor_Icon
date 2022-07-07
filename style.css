@@ -16,6 +16,8 @@ body {
 }
 
 nav {
+   position: sticky;
+  top: 0;
   display: flex;
   /* The flex-wrap property specifies whether the flex items should wrap or not. Which changes the ul from vertical to horizontal */
   justify-content: space-between;
