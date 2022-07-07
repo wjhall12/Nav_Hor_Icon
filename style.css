@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 1000px;
+  max-width: 100%
+}
+
+nav {
+  display: flex;
+  /* The flex-wrap property specifies whether the flex items should wrap or not. Which changes the ul from vertical to horizontal */
+  justify-content: space-between;
+  /* The "justify-content: space-between;" displays the flex items with space between the lines: */
+  padding: 1rem;
+ }
+
+nav ul {
+  list-style-type: none;
+  /* list-style-type: none; - Removes the bullets. */
+  display: flex;
+  /* The flex-wrap property specifies whether the flex items should wrap or not. Which changes the ul from vertical to horizontal */
+   padding: 1rem;
+ }
+
+nav .logo {
+  font-size: 2.5rem;
+  /* <!-- The logo will not show unless you copy the font awesome kit and bootstrap font-awesome from the bootstrap font awesome website and paste it inside the header section--> */
+  color: white;
+  /* If you want to change the color of the logo */
+}
+
+nav li {
+
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  /* text deocoration none removes the underline */
+  padding: 1rem;
+  /* This gives the list item more spaces between. Makes it wider  */
+}
+
+
+
+.selected {
+  font-weight: bold;
+}
+
+
+.highlight {
+  background-color: #00c2ff;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+}
