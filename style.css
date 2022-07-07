@@ -38,6 +38,11 @@ nav .logo {
   /* If you want to change the color of the logo */
 }
 
+.logo i {
+  margin-right: {
+    1rem;
+  }
+  
 nav li {
 
 }
